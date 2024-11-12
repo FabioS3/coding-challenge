@@ -4,7 +4,7 @@ Nest Coding Challenge. Api, welche Inhalte einer JSON-Datei über eine API berei
 
 ## Abhängigkeiten
 
-- Node.js v22.111.0 oder vergleichbar
+- Node.js v22.11.0 oder vergleichbar
 - Yarn
 
 ## Setup
