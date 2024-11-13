@@ -15,7 +15,7 @@ $ yarn install
 
 ## Einstellungen
 
-Der Port der Anwendung und der Pfad der Datei können in der *env.ts*-Datei in dem src-Ordner angepasst werden. Standardmäßig läuft die Anwendung auf Port 3333 und die zu lesende JSON-Datei befindet sich im Root-Verzeichnis
+Der Port der Anwendung und der Pfad der Datei können in der _env.ts_-Datei in dem src-Ordner angepasst werden. Standardmäßig läuft die Anwendung auf Port 3333 und die zu lesende JSON-Datei befindet sich im Root-Verzeichnis
 
 ## Starten der Anwendung
 
@@ -47,4 +47,3 @@ $ yarn run test:cov
 | /v1/users     | Gibt eine Liste aller Benutzer zurück    |
 | /v1/users/:id | Gibt einen Benutzer aus der Liste zurück |
 |               |                                          |
-

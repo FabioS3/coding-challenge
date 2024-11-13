@@ -1,7 +1,7 @@
-import { NestFactory } from '@nestjs/core';
-import { AppModule } from './app.module';
-import { VersioningType } from '@nestjs/common';
-import { PORT } from './env';
+import { NestFactory } from "@nestjs/core";
+import { AppModule } from "./app.module";
+import { VersioningType } from "@nestjs/common";
+import { PORT } from "./env";
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
@@ -10,7 +10,7 @@ async function bootstrap() {
   app.enableVersioning({
     type: VersioningType.URI,
   });
-  
+
   await app.listen(PORT);
 }
 bootstrap();
